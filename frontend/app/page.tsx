@@ -50,6 +50,9 @@ export default function Page() {
       } catch (error) {
         console.error(error);
         console.log("Error connecting to wallet");
+        if(ethereum == undefined){
+          alert("No wallet found! Please install xdc wallet");
+        }
       }
     }
   }
