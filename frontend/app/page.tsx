@@ -32,7 +32,7 @@ export default function Page() {
   let conAdd = '0x77E7b93Ab1fFdDAa0cb6F61BFc021eEbc3bCd3F5';
 
   const connect = async () => {
-    if (ethereum != null) {
+    if (ethereum != undefined) {
       try {
         let provider = new ethers.BrowserProvider(ethereum);
         let signer = await provider.getSigner();
@@ -50,9 +50,11 @@ export default function Page() {
       } catch (error) {
         console.error(error);
         console.log("Error connecting to wallet");
-        if(ethereum == undefined){
-          alert("No wallet found! Please install xdc wallet");
-        }
+      }
+    }
+    else{
+      if(ethereum == undefined){
+        alert("No wallet found! Please install xdc wallet");
       }
     }
   }
