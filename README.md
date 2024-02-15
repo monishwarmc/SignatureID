@@ -1,6 +1,6 @@
 # Signature ID 
 Self soverign identity based dapp built on xdc 
-## [deployed here](https://signature-id-q69x-ccmtvl7ri-monishwarmc.vercel.app/)
+## [deployed here](https://signature-id.vercel.app/)
 
 
 
