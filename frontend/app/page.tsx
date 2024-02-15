@@ -54,7 +54,7 @@ export default function Page() {
     }
     else{
       if(ethereum == undefined){
-        alert("No wallet found! Please install xdc wallet");
+        alert("No wallet found! Please install a wallet");
       }
     }
   }
