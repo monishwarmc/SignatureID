@@ -21,7 +21,7 @@ Self soverign identity based dapp built on xdc
 ```
     yarn install
 ```
-// or
+ or
 
 ```
     npm install
@@ -33,7 +33,7 @@ Self soverign identity based dapp built on xdc
     yarn dev
 ```
 
-// or
+ or
 
 ```
     npm start dev
